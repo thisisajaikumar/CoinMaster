@@ -74,8 +74,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 2120767362, guid: 24d400c27e70e4ec7bb67d1158235726, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,3 +133,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93f5bd31b135849bf84296aec7a9713a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeTime: 3
+  pointValue: 1
+  touchLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  spawnScale: 0.3
+  spawnDuration: 0.3
+  collectScale: 1.2
+  collectDuration: 0.15
